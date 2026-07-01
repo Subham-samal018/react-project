@@ -5,7 +5,7 @@ const Section1 = (props) => {
   return (
     <div className='h-screen w-full '>
       <Navbar/>
-      <Page1content users={props.users} tag={props.tag}/>
+      <Page1content users={props.users} />
     </div>
   )
 }
